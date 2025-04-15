@@ -17,6 +17,11 @@ jobs:
 
       - uses: codacy/git-version@2.8.0
         id: version
+        with:
+          dev-branch: ''
+          prefix: v
+          minor-identifier: ''
+          major-identifier: ''
 
       - run: |
           echo "${{ toJSON(steps.version.outputs) }}"
