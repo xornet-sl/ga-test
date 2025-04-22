@@ -1,0 +1,3 @@
+[submodule ".github/actions/autoversion"]
+	path = .github/actions/autoversion
+	url = https://github.com/xornet-sl/autoversion.git
